@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+inline float name(float i,float j)
+{
+    return (i/j);
+}
+inline double age(double k,double l)
+{
+    return (k*l);
+}
+int main()
+{
+    float a=20.23;
+    float b=203.2345;
+    cout<<name(a,b)<<endl;
+    cout<<age(a,b)<<endl;
+    return 0;
+}
