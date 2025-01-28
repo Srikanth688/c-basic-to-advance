@@ -1,0 +1,38 @@
+#include<iostream>
+using namespace std;
+int add(int i,int j,int k);
+float add(float,int);
+double add(double,int);
+int  main()
+{
+    cout<<add(10,20,30)<<endl;
+cout<<add(12.4,38)<<endl;
+cout<<add(1.6,2);
+    
+}
+
+int add(int s,int h,int)
+{
+    return(s*s*s);
+}
+
+float add(float k,int h)
+{
+    return(k*h);
+}
+double add(double d,int a)
+{
+    return (d*a);
+}
+
+
+
+
+
+
+
+
+
+
+
+
